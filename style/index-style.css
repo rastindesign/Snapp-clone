@@ -2,7 +2,7 @@
     /*font-family: IranianSans;
     src: url(./fa-Iran-sans-web-bold.woff2);*/
     font-family: vazir;
-    src: url(./Vazir.ttf);
+    src: url(../assets/Vazir.ttf);
 }
 *{
     margin: 0;
@@ -71,6 +71,7 @@ li img{
 }
 .logo{
     margin-right: 100px;
+    margin-top: 10px;
 }
 .poster{
     display: flex;
@@ -79,7 +80,7 @@ li img{
 }
 .poster .banner{
     width: 50%;
-    background-image: url(./intro_mobile.jpg);
+    background-image: url(../assets/intro_mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     transform: scaleX(-1);

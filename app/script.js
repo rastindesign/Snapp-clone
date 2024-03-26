@@ -3,10 +3,10 @@ var images = [];
 var time = 4000;
 
 //image list
-images[0] = 'Market.jpg';
-images[1] = 'Food.jpg';
-images[2] = 'Driver.jpg';
-images[3] = 'Club.jpg'
+images[0] = '../assets/Market.jpg';
+images[1] = '../assets/Food.jpg';
+images[2] = '../assets/Driver.jpg';
+images[3] = '../assets/Club.jpg'
 
 // change Image
 function changeImg(){
