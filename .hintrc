@@ -14,7 +14,8 @@
       "default",
       {
         "ignore": [
-          "height: fit-content"
+          "height: fit-content",
+          "width: fit-content"
         ]
       }
     ],
@@ -28,6 +29,12 @@
       "default",
       {
         "label": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
       }
     ]
   }
