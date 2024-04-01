@@ -74,107 +74,126 @@ li img{
     margin-right: 150px;
     margin-top: 10px;
 }
-.poster{
+.section-one{
+    width: 100%;
+    height: 80vh;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: row;
-    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
-.poster .banner{
-    width: 50%;
-    background-image: url(https://web-cdn.snapp.ir/snapp-website/images/about/about-intro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.poster .content{
-    width: 50%;
-    background-color: #21aa58;
-    color: white;
-    padding: 20px;
-    padding-left: 10px;
-}
-.text-h1{
-    width: 62%;
-    font-size: 35px;
-    text-align: justify;
-    direction: rtl;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.text-p{
-    direction: rtl;
-    font-size: 19px;
-    width: 62%;
-    margin-top: 30px;
-    margin-left: 50px;
-    line-height: 1.7;
-}
-.btn2{
-    float: right;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.034);
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    margin: 15px;
-    margin-top: 35px;
-    margin-right: 15vw;
-    cursor: pointer;
-}
-.about{
+.contactus{
     width: 100%;
     height: fit-content;
-}
-.aboutText{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    padding: 0px 220px;
-    padding-top: 70px;
+    margin-top: -130px;
+    gap: 10px;
+}
+.right{
+    background-color: white;
+    width: 43%;
     height: fit-content;
-}
-.aboutText h2{
-    direction: rtl;
-    font-size: 22px;
-    margin-bottom: 32px;
-    font-weight: 700;
-}
-.aboutText p{
-    direction: rtl;
-    line-height: 1.5;
-    font-weight: 200;
-    font-size: 15.5px;
-    color: #8F8F8F;
-    margin-bottom: 40px;
-}
-.aboutText .centerAbout{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    direction: rtl;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.8px 9.6px 0px;
 }
-.aboutText .centerAbout a{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.right input{
+    width: 100%;
+    border-radius: 9px;
+    padding: 8px;
+    padding-right: 40px;
+    background: rgb(232, 232, 232);
+    border: none;
 }
-.aboutText .active{
-    color: #04D16F;
+.right svg{
+    position: absolute;
+    top: 79%;
+    transform: translate(-9px, -48%);
+}
+.right .address{
+    margin: 15px 0px;
+    padding-left: 30px;
+}
+.right .address h2{
     font-size: 17px;
-    margin-bottom: 50px;
+}
+.right .address p{
+    color: #8d8b8b;
+}
+.left{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 95px;    
+    background-color: white;
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 5px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.8px 9.6px 0px;
+}
+.left h1{
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.left h2{
+    margin-top: 8px;
+    font-size: 17px;
+    color: #04D16F;
+}
+.left p{
+    font-size: 16px;
+}
+.section-two{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+.section-two div{
+    margin: 15px 200px;
+}
+.section-two div h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: #04D16F;
+}
+.section-two div p{
+    color: #8d8b8b;
+    font-size: 16.5px;
+    font-weight: 100;
+}
+.section-two div a{
+    text-decoration: none;
+    color: #8d8b8b;
+}
+.section-three{
+    width: 100%;
+    height: fit-content;
 }
 .aboutSendLink{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin: 0px 200px;
     height: fit-content;
 }
 .aboutSendLink h2{
@@ -216,4 +235,42 @@ li img{
 .content .login .z svg{
     position: absolute;
     top: 100px;
+}
+.footer{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 0.5px solid #e5e5e5;
+}
+.footer .footer-links{
+    margin: 40px 0px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 25px;
+}
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+.badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9vw;
+    margin-bottom: 50px;
+}
+.badges img{
+    width: 130px;
+    height: 130px;
 }
